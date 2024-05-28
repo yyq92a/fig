@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 #读取数据源
-df_co2=pd.read_csv('D:\YYQ\owid-co2-data.csv')
+df_co2=pd.read_csv('https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv')
 
 #选择地区模块
 default_countries = ['World','Europe','Asia', 'Africa','United States', 'China','India']#默认国家和地区

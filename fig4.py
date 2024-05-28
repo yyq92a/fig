@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 #读取数据源
-df_co2=pd.read_csv('D:\YYQ\owid-co2-data.csv')
+df_co2=pd.read_csv('https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv')
 year = st.slider('Select year', 1750, 2022)#生成时间滑块
 
 #绘图
